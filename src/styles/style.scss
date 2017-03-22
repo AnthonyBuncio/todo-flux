@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+$main-color : #25b99a;
+
+* {
+	font-family: Helvetica, Arial, sans-serif;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+html {
+	font-size: 12px;
+}
+
+h1 {
+	font-size: 2rem;
+	font-weight: 400;
+	text-align: center;
+}
+
+i {
+	position: absolute;
+	right: 10px;
+	top: 15px;
+	color: $main-color;
+	cursor: pointer;
+}
+
+i.complete {
+	color: white;
+}
+
+input {
+	width: 90%;
+	border-style: none;
+	border-radius: 5px;
+	height: 40px;
+	font-size: 2rem;
+	padding-left: 10px;
+}
+
+li {
+	height: inherit;
+	background: white;
+	border-radius: 5px;
+	width: 80%;
+	margin: 0 auto;
+	font-size: 1.5rem;
+	padding-left: 10px;
+	position: relative;
+	margin-bottom: 5px;
+}
+
+li.complete {
+	height: inherit;
+	background: $main-color;
+	border-radius: 5px;
+	width: 80%;
+	margin: 0 auto;
+	font-size: 1.5rem;
+	padding-left: 10px;
+	position: relative;
+	margin-bottom: 5px;
+	color: white;
+	border: 1px solid white;
+}
+
+p {
+	display: inline-block;
+}
+
+span {
+	color: red;
+	font-size: 1rem;
+	cursor: pointer;
+}
+ 
+ul {
+ 	padding: 0;
+    list-style-type: none;
+}
+
+.header {
+	text-align: center;
+	background: $main-color;
+	padding: 5px 20px 20px 20px;
+	border-radius: 5px;
+}
+
+.list-container {
+	background: $main-color;
+	padding: 5px 20px 20px 20px;
+	margin-top: 20px;
+	border-radius: 5px;	
+}
+
+.todo-container {
+	width: 70%;
+	margin: 0 auto;
+}
+
